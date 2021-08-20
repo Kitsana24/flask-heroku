@@ -31,7 +31,7 @@ def get_api():
 
 @app.route('/name')
 def name():
-    return"กฤษณา อยู่ถนอม เลขที่5 ชั้นม.4/10"    
+    return"กฤษณา อยู่ถนอม<br> เลขที่5 ชั้นม.4/10"    
 
 if __name__ == "__main__":
     app.run(debug=False)
