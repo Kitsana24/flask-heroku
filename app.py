@@ -29,6 +29,10 @@ def hello():
 def get_api():
     return jsonify(data)
 
+@app.route('/hello/<string:name>')
+def Home(name):
+	return render_template('home.html', name_html=name)
+
 @app.route('/name')
 def name():
     return"<font color=red>กฤษณา อยู่ถนอม</font><br> เลขที่5 ชั้นม.4/10"    
