@@ -53,7 +53,7 @@ def Home(name):
 def name():
     return"<font color=red>กฤษณา อยู่ถนอม</font> <br> เลขที่5 ชั้นม.4/10"    
 
-@app.route('/vidio')
+@app.route('/video')
 def index():
     return render_template('index.html')
 
